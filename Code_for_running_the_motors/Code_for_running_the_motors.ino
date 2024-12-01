@@ -16,8 +16,8 @@ void setup(){
   Serial.begin(9600);
 
   // Set initial PWM values for motors
-  analogWrite(pwm_motor_1, 200);
-  analogWrite(pwm_motor_2, 200);
+  analogWrite(pwm_motor_1, 100);
+  analogWrite(pwm_motor_2, 100);
 
   // Move the motors forward
   digitalWrite(motor_input_1, HIGH);
