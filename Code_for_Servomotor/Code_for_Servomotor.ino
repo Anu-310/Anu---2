@@ -19,7 +19,7 @@ void loop() {
     delay(15);           // Wait for the servo to reach the position
   }
   // Move the servo back from 180 to 0 degrees
-  for (pos = 180; pos >= 0; pos -= 1) {
+  for (pos = 170; pos >= 0; pos -= 1) {
     myservo.write(pos);
     delay(15);
   }
